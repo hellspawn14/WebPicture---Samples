@@ -293,31 +293,6 @@ Graphical representation HerokuEditor {
 		target reference  <- TargetC
 	}
 
-
-		Internal_node webPoolDef
-		for reference HerokuMM.haveWebPools {
-			layout default layout
-		}		
-		
-		Internal_node workerPoolDef
-		for reference HerokuMM.haveWorkerPools {
-			layout default layout
-		}	
-		
-		Internal_node BlobsDef
-		for reference HerokuMM.haveBlobs {
-			layout default layout
-		}	
-		
-		Internal_node RMDBsDef
-		for reference HerokuMM.haveRMDBs {
-			layout default layout
-		}
-		
-		Internal_node haveAMPQQueuesDef
-		for reference HerokuMM.haveAMPQQueues {
-			layout default layout
-		}
 		
 		Internal_node webDinoDef
 		for reference WebPool.haveWebDinos {

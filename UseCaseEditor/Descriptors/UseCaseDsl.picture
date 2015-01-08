@@ -534,36 +534,6 @@ Graphical representation UseCaseHeroku {
 		source reference <- SourceC
 		target reference  <- TargetC
 	}
-
-		Internal_node webPoolDef
-		for reference UseCaseMM.haveWebPools {
-			layout default layout
-		}		
-		
-		Internal_node workerPoolDef
-		for reference UseCaseMM.haveWorkerPools {
-			layout default layout
-		}
-		
-		Internal_node useCaseContainerDef
-		for reference UseCaseMM.haveUContainer {
-			layout default layout
-		}		
-		
-		Internal_node BlobsDef
-		for reference UseCaseMM.haveBlobs {
-			layout default layout
-		}	
-		
-		Internal_node RMDBsDef
-		for reference UseCaseMM.haveRMDBs {
-			layout default layout
-		}
-		
-		Internal_node haveAMPQQueuesDef
-		for reference UseCaseMM.haveAMPQQueues {
-			layout default layout
-		}
 		
 		Internal_node webDinoDef
 		for reference WebPool.haveWebDinos {
